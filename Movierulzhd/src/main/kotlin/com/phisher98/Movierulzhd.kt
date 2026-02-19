@@ -61,10 +61,10 @@ open class Movierulzhd : MainAPI() {
 
     override val mainPage = mainPageOf(
         "trending" to "Trending",
-        "movies/malayalam" to "Malayalam",
-        "movies/tamil" to "Tamil",
-        "movies/hindi" to "Hindi",
-        "movies/english" to "English",
+        "genre/malayalam-movies" to "Malayalam",
+        "genre/tamil-movies" to "Tamil",
+        "genre/hindi-movies" to "Hindi",
+
     )
 
     override suspend fun getMainPage(
